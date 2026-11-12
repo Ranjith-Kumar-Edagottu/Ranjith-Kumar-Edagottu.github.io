@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Edagottu Ranjith Kumar | Cloud & DevOps Engineer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f6f8fb;--surface:#fff;--ink:#14213d;--muted:#52607a;--line:#d9e0ec;--accent:#1d4ed8;--accent-ink:#fff;--soft:#e6edfb;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e1424;--surface:#161e33;--ink:#e8edf8;--muted:#9aa8c7;--line:#27324f;--accent:#6c9bff;--accent-ink:#0e1424;--soft:#1c2744;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0e1424;--surface:#161e33;--ink:#e8edf8;--muted:#9aa8c7;--line:#27324f;--accent:#6c9bff;--accent-ink:#0e1424;--soft:#1c2744;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1rem/1.65 "IBM Plex Sans",system-ui,sans-serif}
+h1,h2,h3{font-family:"Bricolage Grotesque","IBM Plex Sans",system-ui,sans-serif;line-height:1.15;margin:0}
+a{color:var(--accent)}
+a:focus-visible,button:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.wrap{max-width:860px;margin:0 auto;padding:0 1.25rem}
+header.top{display:flex;justify-content:space-between;align-items:center;padding:1rem 0}
+nav a{margin-right:1rem;color:var(--muted);text-decoration:none}
+nav a:hover{color:var(--accent)}
+#theme{background:none;border:1px solid var(--line);color:var(--ink);border-radius:999px;padding:.35rem .9rem;font:inherit;cursor:pointer}
+.hero{padding:3rem 0 2.5rem}
+.hero h1{font-size:clamp(2.2rem,7vw,3.6rem);font-weight:700;letter-spacing:-.02em}
+.hero p.tag{font-size:1.2rem;color:var(--muted);max-width:34rem;margin:.9rem 0 1.5rem}
+.pipe{display:flex;flex-wrap:wrap;gap:.5rem;align-items:center;margin:0 0 1.75rem;padding:0;list-style:none}
+.pipe li{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:.45rem .8rem;font-weight:500;font-size:.95rem}
+.pipe li.sep{background:none;border:0;padding:0;color:var(--muted)}
+.pipe li.run{animation:go 4.8s steps(1) infinite}
+.pipe li:nth-of-type(3){animation-delay:0s}.pipe li:nth-of-type(5){animation-delay:1.2s}.pipe li:nth-of-type(7){animation-delay:2.4s}.pipe li:nth-of-type(9){animation-delay:3.6s}
+@keyframes go{0%{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}25%,100%{background:var(--surface);color:var(--ink);border-color:var(--line)}}
+@media (prefers-reduced-motion:reduce){.pipe li.run{animation:none}}
+.btn{display:inline-block;background:var(--accent);color:var(--accent-ink);padding:.65rem 1.2rem;border-radius:8px;text-decoration:none;font-weight:500;margin-right:.6rem}
+.btn.alt{background:none;color:var(--ink);border:1px solid var(--line)}
+section{padding:2.5rem 0;border-top:1px solid var(--line)}
+section h2{font-size:1.7rem;margin-bottom:1rem}
+.about{max-width:38rem;color:var(--muted)}
+.skills{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.skills div{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:1rem 1.1rem}
+.skills h3{font-size:1.05rem;margin-bottom:.5rem}
+.chips{display:flex;flex-wrap:wrap;gap:.4rem;margin:0;padding:0;list-style:none}
+.chips li{background:var(--soft);border-radius:6px;padding:.15rem .55rem;font-size:.9rem}
+.proj{display:grid;gap:1.25rem}
+.proj article{background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:10px;padding:1.2rem 1.3rem}
+.proj h3{font-size:1.25rem;margin-bottom:.4rem}
+.proj p{margin:.3rem 0 .8rem;color:var(--muted)}
+footer{padding:2rem 0 3rem;border-top:1px solid var(--line);color:var(--muted)}
+.edu{color:var(--muted)}
+.cf{display:grid;gap:.8rem;max-width:32rem;margin:1.25rem 0}
+.cf label{display:grid;gap:.25rem;font-weight:500;color:var(--ink)}
+.cf input,.cf textarea{font:inherit;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:.6rem .75rem;width:100%}
+.cf button{border:0;cursor:pointer;font:inherit;font-weight:500;justify-self:start}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+<nav aria-label="Sections"><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a></nav>
+<button id="theme" type="button" aria-label="Switch theme">Theme</button>
+</header>
+
+<main>
+<div class="hero">
+<h1>Edagottu Ranjith Kumar</h1>
+<p class="tag">Cloud and DevOps fresher building and automating apps on AWS.</p>
+<p class="edu">Bangalore, India</p>
+<ul class="pipe" aria-label="Deployment pipeline">
+<li>git push</li><li class="sep" aria-hidden="true">&rsaquo;</li><li class="run">Build</li><li class="sep" aria-hidden="true">&rsaquo;</li><li class="run">Push image</li><li class="sep" aria-hidden="true">&rsaquo;</li><li class="run">Deploy to EC2</li><li class="sep" aria-hidden="true">&rsaquo;</li><li class="run">Live</li>
+</ul>
+<a class="btn" href="#projects">See my projects</a><a class="btn alt" href="#contact">Get in touch</a>
+</div>
+
+<section id="about">
+<h2>About me</h2>
+<p class="about">I hold an MCA degree and am building a career in Cloud and DevOps. I have deployed serverless APIs on AWS, containerized a full-stack app with Docker Compose, and set up a CI/CD pipeline with GitHub Actions. I enjoy automating deployments and learning how real systems run in the cloud. I am looking for a fresher role where I can contribute, learn from experienced teams, and grow.</p>
+<p class="edu">Education: MCA, Sri Vidya Institute of Management, 2026</p>
+</section>
+
+<section id="skills">
+<h2>Skills</h2>
+<div class="skills">
+<div><h3>Compute</h3><ul class="chips"><li>EC2 launch templates</li><li>Auto Scaling</li><li>Load balancers</li><li>Lambda</li></ul></div>
+<div><h3>Containers</h3><ul class="chips"><li>Docker</li><li>Docker Compose</li><li>ECS</li><li>ECR</li><li>EKS</li><li>Kubernetes (fundamentals)</li></ul></div>
+<div><h3>Storage and databases</h3><ul class="chips"><li>S3 static hosting</li><li>RDS with EC2</li><li>DynamoDB with Lambda</li></ul></div>
+<div><h3>Networking and security</h3><ul class="chips"><li>VPC</li><li>VPC peering</li><li>IAM</li><li>Networking</li></ul></div>
+<div><h3>Monitoring and cost</h3><ul class="chips"><li>CloudWatch</li><li>CloudWatch Logs</li><li>SNS</li><li>Billing alerts</li></ul></div>
+<div><h3>Tools and languages</h3><ul class="chips"><li>Linux</li><li>Shell scripting</li><li>Python</li><li>Terraform</li><li>GitHub Actions</li><li>AWS CLI</li><li>Git</li></ul></div>
+</div>
+</section>
+
+<section id="projects">
+<h2>Projects</h2>
+<div class="proj">
+<article>
+<h3>Serverless Task Management API</h3>
+<p>An event-driven REST API on AWS. API Gateway routes requests to Lambda functions that create, list, and update tasks in DynamoDB. Deployed with the Serverless Framework, with least-privilege IAM and pay-per-request billing.</p>
+<ul class="chips"><li>Node.js</li><li>Lambda</li><li>API Gateway</li><li>DynamoDB</li><li>Serverless Framework</li></ul>
+<p><a href="https://github.com/Ranjith-Kumar-Edagottu/aws-node-http-api-project">View on GitHub</a></p>
+</article>
+<article>
+<h3>AI-Powered BankApp</h3>
+<p>A full-stack banking app with an offline AI assistant. Spring Boot, MySQL, and a self-hosted Ollama model run as four containers on one Docker network, with health checks, persistent volumes, and automatic model download.</p>
+<ul class="chips"><li>Java 21</li><li>Spring Boot</li><li>MySQL</li><li>Ollama</li><li>Docker Compose</li></ul>
+<p><a href="https://github.com/Ranjith-Kumar-Edagottu">View on GitHub</a></p>
+</article>
+<article>
+<h3>Flask CI/CD Pipeline</h3>
+<p>Every push to main builds a Docker image, pushes it to Docker Hub, and deploys it to an AWS EC2 instance through a self-hosted GitHub Actions runner.</p>
+<ul class="chips"><li>Python</li><li>Flask</li><li>Gunicorn</li><li>GitHub Actions</li><li>Docker Hub</li><li>EC2</li></ul>
+<p><a href="https://github.com/Ranjith-Kumar-Edagottu/flask-github-actions-cicd">View on GitHub</a></p>
+</article>
+</div>
+</section>
+</main>
+
+<footer id="contact">
+<h2>Contact</h2>
+<p>I am open to fresher Cloud and DevOps roles.</p>
+<p><a href="mailto:Ranjith.edagottu@gmail.com">Ranjith.edagottu@gmail.com</a><br>
+<a href="https://github.com/Ranjith-Kumar-Edagottu">GitHub</a></p>
+<form class="cf" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+<label>Name<input name="name" required autocomplete="name"></label>
+<label>Email<input type="email" name="email" required autocomplete="email"></label>
+<label>Message<textarea name="message" rows="4" required></textarea></label>
+<button class="btn" type="submit">Send message</button>
+</form>
+</footer>
+</div>
+<script>
+(function(){
+var root=document.documentElement,btn=document.getElementById("theme");
+btn.addEventListener("click",function(){
+var dark=root.getAttribute("data-theme")==="dark"||(!root.getAttribute("data-theme")&&window.matchMedia("(prefers-color-scheme: dark)").matches);
+root.setAttribute("data-theme",dark?"light":"dark");
+});
+})();
+</script>
+</body>
+</html>
